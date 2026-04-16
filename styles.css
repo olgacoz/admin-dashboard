@@ -11,8 +11,28 @@ body {
 }
 
 .sidebar {
-  background-color: #1992D4;
+  background-color: #f74843;
   grid-row: 1 / span 2;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 2rem;
+  padding: 20px;
+}
+
+.sidebar > .nav {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 2rem;
+}
+
+.branding,
+.top > div,
+.bottom > div {
+  margin-bottom: 10px;
+}
+
+.sidebar div {
+  color: white;
 }
 
 .header {
