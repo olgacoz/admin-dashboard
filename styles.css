@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  grid: 1fr 4fr / 1fr 4fr;
+}
+
+.sidebar {
+  background-color: #1992D4;
+  grid-row: 1 / span 2;
+}
+
+.header {
+  background-color: white;
+}
+
+.main-content {
+  background-color: #E2E8F0;
+}
