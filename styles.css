@@ -37,8 +37,14 @@ body {
 
 .header {
   background-color: white;
+  display: grid;
+  grid: 1fr 2fr / 1.5fr 1fr;
+  padding: 20px 30px;
 }
 
 .main-content {
   background-color: #E2E8F0;
+  display: grid;
+  grid: 1fr 1fr / 2.5fr 1fr;
+  padding: 30px 30px 50px 20px;
 }
