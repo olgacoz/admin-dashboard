@@ -31,8 +31,8 @@ body {
 }
 
 .branding,
-.top > div,
-.bottom > div {
+.nav-top > div,
+.nav-bottom > div {
   margin-bottom: 15px;
   display: flex;
   align-items: center;
@@ -72,4 +72,58 @@ body {
 a {
   text-decoration: none;
   color: white;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+form input {
+  flex: 1;
+  border-style: none;
+  border-radius: 20px;
+  background: #E2E8F0;
+  font-size: inherit;
+  padding: 0px 10px 0px 10px;
+  outline: none;
+  height: 80%;
+}
+
+form button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 0;
+  cursor: pointer;
+  padding: 3px;
+}
+
+form button svg,
+.header-top-right svg {
+  width: 1.3rem;
+}
+
+div.header-top-right {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: end;
+  gap: 30px;
+}
+
+.header-top-right > * {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.header-top-right img {
+  border-radius: 30px;
+}
+
+.header-top-right div {
+  font-weight: bold;
+  padding-right: 50px;
 }
