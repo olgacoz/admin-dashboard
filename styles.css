@@ -155,6 +155,7 @@ div.header-top-right {
 .header-top-right div {
   font-weight: bold;
   margin-right: 50px;
+  font-size: 1.2rem;
 }
 
 .user-info {
@@ -174,7 +175,7 @@ div.header-top-right {
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .user-info span {
@@ -195,6 +196,7 @@ div.header-top-right {
   background-color: var(--sidebar-color);
   color: white;
   border-radius: 30px;
+  font-size: inherit;
 }
 
 .header .buttons button:hover {
