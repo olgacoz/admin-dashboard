@@ -24,7 +24,7 @@ body {
   grid-template-rows: auto 1fr;
   gap: 50px;
   padding: 20px;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   z-index: 3;
 }
 
@@ -159,10 +159,10 @@ div.header-top-right {
   font-weight: bold;
   display: flex;
   flex-direction: column;
+  font-size: 1.3rem;
 }
 
 .user-info span {
-  font-weight: bold;
   font-size: small;
   margin-bottom: 5px;
 }
