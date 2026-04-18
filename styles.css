@@ -30,6 +30,7 @@ body {
   z-index: 3;
 }
 
+.projects-area,
 .sidebar,
 .sidebar>.nav,
 .announcements-group {
@@ -217,8 +218,6 @@ div.header-top-right {
 
 .projects-area {
   grid-row: 1 / span 2;
-  display: grid;
-  grid-template-rows: auto 1fr;
 }
 
 .cards {
