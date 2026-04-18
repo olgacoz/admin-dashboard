@@ -2,6 +2,7 @@
   --sidebar-color: #f74843;
   --header-color: white;
   --main-color: #E2E8F0;
+  --shadow-color: #B4B7BB;
 }
 
 * {
@@ -76,7 +77,7 @@ body {
   grid: auto auto / 1.5fr 1fr;
   padding: 20px 30px;
   row-gap: 20px;
-  box-shadow: 0 2px 5px #B4B7BB;
+  box-shadow: 0 2px 5px var(--shadow-color);
   z-index: 2;
 }
 
@@ -280,4 +281,10 @@ div.header-top-right {
 
 .main h2 {
   font-size: 1.2rem;
+}
+
+.card,
+.announcements,
+.trending {
+  box-shadow: 2px 2px 5px var(--shadow-color);
 }
