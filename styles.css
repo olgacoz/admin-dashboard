@@ -41,11 +41,18 @@ body {
 .branding,
 .nav-top>div,
 .nav-bottom>div {
-  margin-bottom: 15px;
   display: flex;
   align-items: center;
   gap: 15px;
 }
+
+.nav-top,
+.nav-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 
 .branding svg {
   width: 2.5rem;
