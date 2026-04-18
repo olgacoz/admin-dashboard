@@ -286,5 +286,5 @@ div.header-top-right {
 .card,
 .announcements,
 .trending {
-  box-shadow: 2px 2px 5px var(--shadow-color);
+  box-shadow: 5px 5px 5px var(--shadow-color);
 }
