@@ -5,6 +5,7 @@
   --shadow-color: #B4B7BB;
   --button-hover-color: #e7443f;
   --button-activate-color:#dc413c;
+  --card-gap: 20px;
 }
 
 * {
@@ -23,17 +24,20 @@ body {
 .sidebar {
   background-color: var(--sidebar-color);
   grid-row: 1 / span 2;
-  display: grid;
-  grid-template-rows: auto 1fr;
   gap: 50px;
   padding: 20px;
   font-size: 1.2rem;
   z-index: 3;
 }
 
-.sidebar>.nav {
+.sidebar,
+.sidebar>.nav,
+.announcements-group {
   display: grid;
   grid-template-rows: auto 1fr;
+}
+
+.sidebar>.nav {
   gap: 50px;
 }
 
@@ -89,7 +93,7 @@ body {
   grid: 1fr auto / 2.5fr 1fr;
   padding: 30px 30px 10px 20px;
   z-index: 1;
-  gap: 20px;
+  gap: var(--card-gap);
   padding-bottom: 50px;
 }
 
@@ -218,7 +222,7 @@ div.header-top-right {
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 20px;
+  gap: var(--card-gap);
 }
 
 .card {
@@ -259,11 +263,6 @@ div.header-top-right {
   display: flex;
   flex-direction: column;
   gap: 10px;
-}
-
-.trending-group {
-  display: grid;
-  grid-template-rows: auto 1fr;
 }
 
 .trend-topic {
