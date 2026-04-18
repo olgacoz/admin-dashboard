@@ -87,6 +87,7 @@ body {
   padding: 30px 30px 10px 20px;
   z-index: 1;
   gap: 20px;
+  padding-bottom: 50px;
 }
 
 a {
@@ -217,7 +218,7 @@ div.header-top-right {
 
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  justify-content: space-between;
 }
 
 .card .icons {
@@ -229,11 +230,6 @@ div.header-top-right {
 .card img {
   width: 25px;
   color: black;
-}
-
-.announcements-group {
-  display: grid;
-  grid-template-rows: auto 1fr;
 }
 
 .announcements,
